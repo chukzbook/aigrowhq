@@ -10,7 +10,7 @@
   * { margin:0; padding:0; box-sizing:border-box; }
   body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; background:var(--bg); color:var(--text); line-height:1.6; }
   .wrap { max-width:960px; margin:0 auto; padding:0 24px; }
-  header { padding:28px 0; border-bottom:1px solid var(--line); }
+  header { padding:24px 0; border-bottom:1px solid var(--line); display:flex; align-items:center; justify-content:space-between; gap:16px; }
   .logo { font-weight:800; font-size:20px; letter-spacing:-0.5px; } .logo span { color:var(--accent); }
   .hero { padding:70px 0 50px; text-align:center; }
   .hero h1 { font-size:clamp(28px,5vw,48px); font-weight:800; letter-spacing:-1px; line-height:1.15; }
@@ -38,7 +38,7 @@
 <div class="wrap">
   <header>
     <div class="logo">aigrow<span>hq</span></div>
-    <nav style="margin-left:auto;"><a href="/blog/index.html" style="color:var(--muted);text-decoration:none;font-size:14px;">Blog</a></nav>
+    <nav><a href="/blog/index.html" style="color:var(--muted);text-decoration:none;font-size:14px;">Blog</a></nav>
   </header>
 
   <section class="hero">
