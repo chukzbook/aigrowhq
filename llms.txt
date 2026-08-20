@@ -1,0 +1,23 @@
+# aigrowhq
+
+> AI search optimization (AEO & GEO): audits, AI-citation content, and authority placements that get your business recommended by ChatGPT, Claude, Perplexity and Google AI Overviews. Results in 60–90 days. No subscriptions.
+
+## Key pages
+
+- [Home](https://aigrowhq.com/): AI search growth — get cited by ChatGPT, Claude, Perplexity & Google AI.
+- [Blog](https://aigrowhq.com/blog/index.html): Guides on AI search optimization, AEO, GEO, and AI visibility.
+
+## Blog articles
+
+- [How ChatGPT Chooses Its Sources (And How to Get Picked)](https://aigrowhq.com/blog/how-chatgpt-chooses-sources.html)
+- [AEO vs GEO Explained: The Two Halves of AI Search Optimization](https://aigrowhq.com/blog/aeo-vs-geo-explained.html)
+- [Why ChatGPT Doesn't Recommend Your Business (And the Fix)](https://aigrowhq.com/blog/why-chatgpt-doesnt-recommend-your-business.html)
+- [What an AI Visibility Audit Actually Checks](https://aigrowhq.com/blog/ai-visibility-audit-what-it-checks.html)
+
+## Packages
+
+- AI Visibility Audit: $49 one-time — where you appear across Google AIO, ChatGPT, Claude, Perplexity, Gemini; competitor analysis; distribution gaps; 90-day roadmap.
+- Starter: $99 one-time — audit + 5 AI-citation articles + FAQ schema + internal linking.
+- Done-For-You: $199 one-time — everything in Starter + 10 articles + authority placements + weekly updates.
+
+Contact: hello@aigrowhq.com
