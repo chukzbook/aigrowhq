@@ -39,6 +39,12 @@
   .formbox input, .formbox select, .formbox textarea { width:100%; background:var(--bg); color:var(--text); border:1px solid var(--line); border-radius:8px; padding:11px 13px; font-size:15px; }
   .formbox textarea { min-height:90px; }
   .footer { padding:30px 0 50px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; text-align:center; }
+  .samples { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:16px; margin:20px 0 26px; }
+  .samples figure { background:var(--card); border:1px solid var(--line); border-radius:12px; overflow:hidden; margin:0; transition:border-color .2s; }
+  .samples figure:hover { border-color:var(--accent); }
+  .samples img { width:100%; display:block; aspect-ratio:16/11; object-fit:cover; object-position:top; border-bottom:1px solid var(--line); background:var(--card); }
+  .samples figcaption { padding:10px 14px; font-size:13px; color:var(--muted); }
+  .samples figcaption b { color:var(--text); display:block; margin-bottom:2px; }
   @media(max-width:640px){ .hero h1{font-size:26px} }
 </style>
 </head>
@@ -140,6 +146,15 @@
 
   <section class="section">
     <h2>Proof, not promises</h2>
+    <p style="color:var(--muted);max-width:760px"><strong style="color:var(--text)">Our own placements — live right now.</strong> These are six of 215 live pages from our September 2026 release on self-publishing costs. Click any image to open the live article on that publisher.</p>
+    <div class="samples">
+      <figure><a href="http://index.businessinsurance.com/businessinsurance/article/abnewswire-2026-9-1-how-to-self-publish-a-book-in-2026-new-data-shows-the-real-cost-timeline-and-steps" target="_blank" rel="noopener"><img src="/img/samples/businessinsurance.jpg" alt="Press release published on Business Insurance" loading="lazy"></a><figcaption><b>Business Insurance</b>Live article →</figcaption></figure>
+      <figure><a href="http://finance.minyanville.com/minyanville/article/abnewswire-2026-9-1-how-to-self-publish-a-book-in-2026-new-data-shows-the-real-cost-timeline-and-steps" target="_blank" rel="noopener"><img src="/img/samples/minyanville.jpg" alt="Press release published on Minyanville" loading="lazy"></a><figcaption><b>Minyanville</b>Live article →</figcaption></figure>
+      <figure><a href="http://markets.financialcontent.com/bostonherald/article/abnewswire-2026-9-1-how-to-self-publish-a-book-in-2026-new-data-shows-the-real-cost-timeline-and-steps/" target="_blank" rel="noopener"><img src="/img/samples/bostonherald.jpg" alt="Press release published on Boston Herald markets" loading="lazy"></a><figcaption><b>Boston Herald · Markets</b>Live article →</figcaption></figure>
+      <figure><a href="http://finance.abc4.com/inergize.ktvx/article/abnewswire-2026-9-1-how-to-self-publish-a-book-in-2026-new-data-shows-the-real-cost-timeline-and-steps" target="_blank" rel="noopener"><img src="/img/samples/abc4.jpg" alt="Press release published on ABC4 broadcast affiliate" loading="lazy"></a><figcaption><b>ABC4 (broadcast affiliate)</b>Live article →</figcaption></figure>
+      <figure><a href="http://business.thepilotnews.com/thepilotnews/markets/article/abnewswire-2026-9-1-how-to-self-publish-a-book-in-2026-new-data-shows-the-real-cost-timeline-and-steps/" target="_blank" rel="noopener"><img src="/img/samples/thepilotnews.jpg" alt="Press release published on The Pilot News" loading="lazy"></a><figcaption><b>The Pilot News</b>Live article →</figcaption></figure>
+      <figure><a href="http://markets.chroniclejournal.com/chroniclejournal/article/abnewswire-2026-9-1-how-to-self-publish-a-book-in-2026-new-data-shows-the-real-cost-timeline-and-steps/" target="_blank" rel="noopener"><img src="/img/samples/chroniclejournal.jpg" alt="Press release published on Chronicle Journal" loading="lazy"></a><figcaption><b>Chronicle Journal</b>Live article →</figcaption></figure>
+    </div>
     <div class="proof">
       <p style="margin-bottom:8px"><strong>Questions?</strong> Chat with us directly on WhatsApp or email <a href="mailto:publish@harmonypublishing.net" style="color:var(--accent)">publish@harmonypublishing.net</a> — we reply within hours.</p>
       <p>We run this exact system on our own properties before selling it — our AI-citation trackers monitor book-publishing keywords weekly, and our own press-release results get published here as they land.</p>
